@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <a [ngClass]="{'d-none': logo_txt == true}" class="navbar-brand d-lg-none ml-auto" routerLink="/"><h3>{{logo}}</h3></a>
+  <button (click)="logo_txt = !logo_txt" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+  aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-5 mx-auto smooth-scroll list-unstyled">
+      <li *ngFor="let item of navItemsPart1" class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/{{item}}">{{item}}</a>
+      </li>
+    </ul>
+    <img class="fondo_nav d-lg-none" src="../../assets/img/coloquio.png" alt="fondo de la barra">
+    <a routerLink="/"><span class="logo bg-dark d-none d-lg-flex"><img src="../../assets/img/coloquio.png" alt="Logo de coloquio"></span></a>
+      <ul class="navbar-nav mr-5 mx-auto r">
+        <li *ngFor="let item of navItemsPart2" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/{{item}}">{{item}}</a>
+        </li>
+      </ul>
+  </div>
+</nav>
