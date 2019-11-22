@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Coloquio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
@@ -29,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 HOLA A TODOS SOY EDD SERNA
 >>>>>>> e2f7a2440a49ecfd1931eb092e5988a00878979e
+=======
+# Coloquio
+Esta pagina web corresponde a "Coloquio", una cafetería ubicada en la ciudad  de Maizales 
+>>>>>>> coloquio/master
