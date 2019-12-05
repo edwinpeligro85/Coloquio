@@ -30,7 +30,7 @@ import { GaleriaComponent } from './galeria/galeria.component';
     AppRoutingModule,
     RouterModule.forRoot([
       { path: '', component: PrincipalComponent },
-      { path: 'Inicio', component: InicioComponent },
+      { path: 'Inicio', component: PrincipalComponent },
       { path: 'Nosotros', component: NosotrosComponent },
       { path: 'Menú', component: MenuComponent },
       { path: 'Reservas', component: ReservasComponent },
