@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatCarousel, MatCarouselComponent } from '@ngmodule/material-carousel';
 
 @Component({
   selector: 'app-reservas',
@@ -8,6 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class ReservasComponent implements OnInit {
 
   constructor() { }
+
+  slides = [
+    {img: 'assets/img/diapositiva1.JPG'},
+    {img: 'assets/img/diapositiva2.JPG'},
+    {img: 'assets/img/diapositiva3.jpg'}
+  ];
 
   ngOnInit() {
   }

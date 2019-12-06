@@ -1,5 +1,8 @@
 footer
 {
-    height: 400px;
-    background-image: url(../../assets/img/footer-bg.webp);
+    height: 350px;
+    background-image: url(../../assets/img/footer_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -1,1 +1,29 @@
-<p>reservas works!</p>
+<section class="container-fluid  py-5" id="Reservas">
+    <div class="row h-25 d-flex justify-content-center align-items-center header_reservas">
+
+        <div class="d-none d-lg-block col-lg-3 slider1"></div>
+
+        <div class="col-12 col-lg-6 momentos">
+            <p class="h3 text-dark text-center">
+                <span class="d-md-none">Momentos COLOQUIO</span>
+                <span class="d-none d-md-block">Experiencias sin igual Espacios para transformar momentos especiales en momentos inolvidables</span>
+            </p>
+        </div>
+
+        <div class="d-none d-lg-block col-lg-3 slider2"></div>
+
+    </div>
+
+    <div class="h-75 px-0 px-lg-5 container mt-5">
+        <mat-carousel proportion="40">
+            <mat-carousel-slide #mat *ngFor="let slide of slides" [image]="slide.img" [hideOverlay]="false"></mat-carousel-slide> 
+        </mat-carousel>
+
+        <div>
+            <img class="w-100 marco" src="assets/img/marco.png" alt="">
+        </div>
+
+    </div>
+
+    
+</section>
