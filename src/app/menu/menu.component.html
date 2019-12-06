@@ -1,1 +1,21 @@
-<p>menu works!</p>
+<section class="container-fluid px-0" id="Menu">
+
+    <div class="row header_menu m-0">
+      <div class="col-9 col-lg-8 pt-3 d-flex align-items-end">
+        <p class="text-dark mb-0 mb-sm-3 mb-lg-5">RESTAURANTE MONTESACRO, EN EL CORAZÓN DEL SECTOR AMURALLADO</p>
+      </div>
+    </div>
+
+    <div class="container px-0 pt-3 pt-sm-5">
+        <!-- Card -->
+        <div class="card-deck">
+            <div class="card mx-auto mx-sm-2 mx-md-3" style="width: 18rem;" *ngFor="let card of cards">
+                <div class="card-title">
+                    <h3 class="card-text text-center font-weight-bold">{{ card.name | uppercase }}</h3>
+                </div>
+                <img [src]="card.img" class="card-img-bottom" [alt]="card.name">
+            </div>
+        </div>
+    </div>
+
+</section>
