@@ -13,6 +13,8 @@ import { PrincipalComponent } from './principal/principal.component';
 import { ReservasComponent } from './reservas/reservas.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { AppRoutingModule } from './app-routing.module';
+import { Angular2ImageGalleryModule } from 'angular2-image-gallery'
+import 'hammerjs';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     AppRoutingModule,
     MatCarouselModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    Angular2ImageGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
