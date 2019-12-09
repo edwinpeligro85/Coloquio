@@ -2,14 +2,14 @@
     min-height: 100px;
     max-height: 151px;
     width: 100%;
-    background-image: url(../../assets/img/header_menu_xs.jpg);
+    background-image: url(../../assets/img/slider-image-3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: flex-end;
 }
-.header_menu p{
+p{
     font-size: .8rem;
     font-weight: bold;
 }
@@ -21,12 +21,11 @@
 /* // Small devices (landscape phones, 576px and up "sm") */
 @media (min-width: 576px) {
     .header_menu {
-        background-image: url(../../assets/img/header_menu_sm.jpg);
         min-height: 151px;
         max-height: 201px;
     }
 
-    .header_menu p {
+    p {
         font-size: 1.2rem;
     }
 }
@@ -34,12 +33,11 @@
 /* // Medium devices (tablets, 768px and up "md") */
 @media (min-width: 768px) {
     .header_menu {
-        background-image: url(../../assets/img/header_menu_md.jpg);
         min-height: 201px;
         max-height: 260px;
     }
 
-    .header_menu p {
+    p {
         font-size: 1.4rem;
     }
 }
@@ -47,12 +45,11 @@
 /* // Large devices (desktops, 992px and up "lg") */
 @media (min-width: 992px) {
     .header_menu {
-        background-image: url(../../assets/img/header_menu_lg.jpg);
         min-height: 260px;
         max-height: 315px;
     }
 
-    .header_menu p {
+    p {
         font-size: 1.8rem;
     }
 }
@@ -60,12 +57,11 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .header_menu {
-        background-image: url(../../assets/img/header_menu.jpg);
         min-height: 330px;
         max-height: 370px;
     }
 
-    .header_menu p {
+    p {
         font-size: 2.2rem;
     }
 }
