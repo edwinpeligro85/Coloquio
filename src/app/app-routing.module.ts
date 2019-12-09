@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PrincipalComponent } from './principal/principal.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
@@ -21,3 +21,6 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+export const routing: ModuleWithProviders = RouterModule.forRoot(routes,
+  { onSameUrlNavigation: 'reload', scrollPositionRestoration: 'top', anchorScrolling: 'enabled' }
+);

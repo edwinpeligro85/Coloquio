@@ -4,3 +4,7 @@
 .div_nosotros_2, .card-body{
 background-color: rgba(219, 207, 189, 0.99);
 }
+
+.div_nosotros_1 img {
+    height: 100% !important;
+}
