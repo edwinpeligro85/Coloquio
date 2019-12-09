@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   titulo = 'Coloquio';
-  accion:boolean = false;
+  accion = false;
+  rutaAdmin = false;
+
+  constructor( private location: Location ) {
+    if ( location.path() === '/tablero') {
+      this.rutaAdmin = true;
+    }
+  }
 }

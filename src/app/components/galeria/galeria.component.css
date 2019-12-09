@@ -7,7 +7,7 @@
 /* // Medium devices (tablets, 768px and up "md") */
 @media (min-width: 768px) {
     .header {
-        background-image: url(../../assets/img/header_galeria.png);
+        background-image: url(../../../assets/img/header_galeria.png);
         background-position: center !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
