@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './aside.component.html',
   styleUrls: [
     './aside.component.css',
-    '../../../../../assets/css/sb-admin.css'
+    '../../../../../assets/css/sb-admin.min.css'
   ]
 })
 export class AsideComponent implements OnInit {

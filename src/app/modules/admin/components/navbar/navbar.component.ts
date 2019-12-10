@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './navbar.component.html',
   styleUrls: [
     './navbar.component.css',
-    '../../../../../assets/css/sb-admin.css'
+    '../../../../../assets/css/sb-admin.min.css'
   ]
 })
 export class NavbarComponent implements OnInit {
